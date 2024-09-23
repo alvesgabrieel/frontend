@@ -9,4 +9,6 @@ const EstiloGlobal = createGlobalStyle`
     list-style: none;
 }`
 
+
+
 export default EstiloGlobal

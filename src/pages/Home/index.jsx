@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom';
+
 import logo from '../../assets/imgs/logo.png'
 import logoAlt from '../../assets/imgs/logo-alt.png'
 import {
@@ -19,9 +21,11 @@ const Home = () => {
     <AppContainer>
       <MainContent>
         <img src={logo} alt="Logo da academia" />
-        <Button type="button" class="btn btn-success">
-          ENTRAR
-        </Button>
+        <Link to="/alunos">
+          <Button type="button" className="btn btn-success">
+            ENTRAR
+          </Button>
+        </Link>
       </MainContent>
       <Footer>
         <div>
