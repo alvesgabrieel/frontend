@@ -21,13 +21,13 @@ export const Button = styled.button`
   padding: 1rem 2rem;
   font-size: 3.25rem;
   border-radius: 0.5rem;
-  background-color: #7ed957;
+  background-color: #0988a8;
   color: #fff;
   border: none;
   cursor: pointer;
 
   &:hover {
-    background-color: #90d174;
+    background-color: #0cb2db;
   }
 `
 
@@ -56,10 +56,6 @@ export const Rights = styled.div`
 
 export const LogoFooter = styled.img`
   height: 97px;
-`
-
-export const ImgFooter = styled.img`
-  height: 40px;
 `
 
 export const Version = styled.div`

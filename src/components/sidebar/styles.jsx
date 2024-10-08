@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const TextVersion = styled.p`
   font-family: Poppins;
@@ -22,7 +22,7 @@ export const TextVersion = styled.p`
     text-align: left;
     color: #838383;
   }
-`;
+`
 
 export const Version = styled.div`
   align-content: end;
@@ -30,14 +30,10 @@ export const Version = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-`;
-
-export const ImgFooter = styled.img`
-  height: 40px;
-`;
+`
 
 export const SidebarContainer = styled.div`
-  width: 320px; /* Largura da sidebar */
+  width: 364px; /* Largura da sidebar */
   height: 100vh; /* Altura total da viewport */
   background-color: #ffff; /* Cor de fundo */
   color: #000000; /* Cor do texto */
@@ -47,11 +43,12 @@ export const SidebarContainer = styled.div`
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
   position: fixed; /* Fixa a sidebar à esquerda */
   transition: width 0.3s; /* Transição suave */
-`;
+`
 
-export const MenuItem = styled(Link)` /* Adicione esta linha para exportar MenuItem */
+export const MenuItem = styled(Link)`
+  /* Adicione esta linha para exportar MenuItem */
   text-decoration: none; /* Remove o sublinhado */
-  color: #9197B3; /* Cor do texto */
+  color: #9197b3; /* Cor do texto */
   padding: 15px 20px; /* Aumenta o padding */
   border-radius: 5px; /* Bordas arredondadas */
   transition: background-color 0.3s; /* Transição suave para o hover */
@@ -60,7 +57,7 @@ export const MenuItem = styled(Link)` /* Adicione esta linha para exportar MenuI
   font-size: 20px;
 
   &:hover {
-    background-color: #5932EA; /* Cor ao passar o mouse */
+    background-color: #5932ea; /* Cor ao passar o mouse */
     color: #fff; /* Cor do texto ao passar o mouse */
     text-decoration: none; /* Remove o sublinhado */
   }
@@ -72,5 +69,23 @@ export const MenuItem = styled(Link)` /* Adicione esta linha para exportar MenuI
   &.active {
     text-decoration: none; /* Remove sublinhado quando ativo */
   }
+`
 
-`;
+export const LogoutContainer = styled.div`
+  margin-top: auto; /* Move o container para a parte inferior da sidebar */
+`
+
+export const LogoutButton = styled.button`
+  background-color: #d9534f; /* Cor de fundo do botão */
+  color: white; /* Cor do texto */
+  padding: 10px 15px; /* Padding do botão */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 18px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor de pointer */
+  transition: background-color 0.3s; /* Transição suave para o hover */
+
+  &:hover {
+    background-color: #c9302c; /* Cor do botão ao passar o mouse */
+  }
+`
